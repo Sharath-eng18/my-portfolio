@@ -30,7 +30,7 @@ const Home = () => {
           <div className="project-info">
             <h3>Paatalu - A Music Player built on ReactJS</h3>
             <div className="project-links">
-              <a href="https://paatalu-react.vercel.app/" className="project-link">View case study</a>
+              <a href="https://paatalu-react.vercel.app/" className="project-link">View Project</a>
             </div>
           </div>
         </div>
@@ -59,5 +59,6 @@ const Home = () => {
     </div>
   );
 };
+
 
 export default Home;
