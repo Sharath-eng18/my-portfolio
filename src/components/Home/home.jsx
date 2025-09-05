@@ -8,7 +8,7 @@ const Home = () => {
       {/* Header section */}
       <div className="header-section">
         <div className="header-content">
-          <div className="header-tag">Recent project: Paatalu</div>
+          <div className="header-tag">Recent project: EchoGPT</div>
           <h1 className="header-title">Aspiring AI Engineer<br/>B.Tech Student </h1>
 
           <p className="header-description">
@@ -62,3 +62,4 @@ const Home = () => {
 
 
 export default Home;
+
