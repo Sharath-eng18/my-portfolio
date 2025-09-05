@@ -1,5 +1,6 @@
 import React from 'react';
 import PaataluSample from '../../assets/paatalusample.jpg'
+import EchoGPTMockup from '../../assets/EchoGPT-Mockup.png'
 import './home.css';
 
 const Home = () => {
@@ -25,12 +26,12 @@ const Home = () => {
       <div className="project-showcase">
         <div className="project-card main-project">
           <div className="project-image">
-            <img src={PaataluSample} alt="" />
+            <img src={EchoGPTMockup} alt="" />
           </div>
           <div className="project-info">
-            <h3>Paatalu - A Music Player built on ReactJS</h3>
+            <h3>EchoGPT - A Chatbot built using LangChain</h3>
             <div className="project-links">
-              <a href="https://paatalu-react.vercel.app/" className="project-link">View Project</a>
+              <a href="https://echo-gpt-lang-chain-frontend.vercel.app/" className="project-link">View Project</a>
             </div>
           </div>
         </div>
@@ -60,6 +61,4 @@ const Home = () => {
   );
 };
 
-
 export default Home;
-
