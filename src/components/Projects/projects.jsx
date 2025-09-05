@@ -1,6 +1,6 @@
 import React from 'react';
 import PaataluMockup from '../../assets/paatalu-mockup.jpg'
-
+import EchoGPTMockup from '../../assets/EchoGPT-Mockup.png'
 
 // --- CSS Styles (as objects) ---
 const styles = {
@@ -135,7 +135,7 @@ const ProjectCard = ({ title, description, imgSrc, author, authorImgSrc, linkTex
           />
           <p style={styles.cardDescription}>{description}</p>
         </div>
-        <a href="https://github.com/Sharath-eng18/Paatalu_React" style={styles.caseStudyLink}>
+        <a href="https://github.com/Sharath-eng18/" style={styles.caseStudyLink}>
           {linkText}
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
             <path fillRule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
@@ -155,10 +155,17 @@ export default function App() {
       title: "Paatalu - A Music Player built on ReactJS",
       description: "Paatalu is a sleek and intuitive music player designed for an immersive and seamless listening experience.Built with React, it offers a fast, dynamic, and responsive interface for you to enjoy all your favorite tracks.",
       imgSrc: PaataluMockup,
-
-      author: "Author",
+      author: "Sharath",
       authorImgSrc: "https://placehold.co/40x40/4f46e5/ffffff?text=A"
-    }
+    },
+    {
+      id: 2,
+      title: "EchoGPT - A Chatbot built using LangChain",
+      description: "EchoGPT is a chatbot that uses LangChain to understand and respond to user queries. It is built using React and Flask as its backend.",
+      imgSrc: EchoGPTMockup,
+      author: "Sharath",
+      authorImgSrc: "https://placehold.co/40x40/334155/e2e8f0?text=A"
+    },
   ];
 
   return (
